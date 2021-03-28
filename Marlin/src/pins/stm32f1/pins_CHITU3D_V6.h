@@ -56,7 +56,12 @@
 //
 #define X_STOP_PIN                          PG10
 #define Y_STOP_PIN                          PA12
-#define Z_STOP_PIN                          PG9
+#define Z_STOP_PIN                          PA14
+
+// Probe
+
+#define Z_MIN_PROBE_PIN                     PG9  
+
 
 //
 // Steppers
